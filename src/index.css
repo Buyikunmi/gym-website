@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .primary-btn {
+    @apply bg-primary text-white font-semibold px-5 py-3 rounded-md hover:scale-110 duration-300;
+  }
+}
+
+@layer utilities {
+  .drop-shadow {
+    filter: drop-shadow(-6px 8px 15px rgba(209, 123, 37, 0.3));
+  }
+}
