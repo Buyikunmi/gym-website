@@ -2,6 +2,10 @@ import Image1 from "../assets/tabs/1.png";
 import Image2 from "../assets/tabs/2.png";
 import Image3 from "../assets/tabs/3.png";
 import Image4 from "../assets/tabs/4.png";
+import Image5 from "../assets/tabs/treadmill.jpg";
+import Image6 from "../assets/tabs/weights1.jpg";
+import Image7 from "../assets/tabs/kettlebells.jpg";
+import Image8 from "../assets/tabs/Gym_ball.jpg";
 
 export const NavbarMenu = [
   {
@@ -35,15 +39,16 @@ export const ProductsData = [
   {
     id: 1,
     category: "Yoga",
-    image: Image1,
+    title: "Yoga Ball",
+    image: Image8,
     info: "info",
     price: "price",
   },
   {
     id: 2,
     category: "Fitness",
-    image: Image2,
-    title: "Dumbells",
+    image: Image5,
+    title: "Threadmill",
     info: "info",
     price: "$100",
   },
@@ -56,9 +61,17 @@ export const ProductsData = [
     price: "$100",
   },
   {
+    id: 6,
+    category: "Muscles",
+    image: Image4,
+    title: "Dumbells",
+    info: "info",
+    price: "$100",
+  },
+  {
     id: 4,
     category: "Fitness",
-    image: Image4,
+    image: Image5,
     title: "Dumbells",
     info: "info",
     price: "$100",
@@ -66,24 +79,8 @@ export const ProductsData = [
   {
     id: 5,
     category: "Muscles",
-    image: Image1,
-    title: "Yoga Mat",
-    info: "info",
-    price: "$100",
-  },
-  {
-    id: 6,
-    category: "Muscles",
-    image: Image2,
-    title: "Yoga Mat",
-    info: "info",
-    price: "$100",
-  },
-  {
-    id: 7,
-    category: "Yoga",
-    image: Image3,
-    title: "Yoga Mat",
+    image: Image7,
+    title: "kettlebells",
     info: "info",
     price: "$100",
   },

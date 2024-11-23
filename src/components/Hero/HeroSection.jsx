@@ -51,7 +51,13 @@ const HeroSection = () => {
 
           <div className="flex justify-center items-center">
             <motion.img
-              initial={{ oacity: 0, x: 100 }}
+              initial={{ oacity: 0, x: 100, rotate: 90 }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                rotate: 0,
+                transition: { duration: 0.5 },
+              }}
               src={HeroImg}
               alt=""
               className="w-[350px] md:w-[550px] xl:[700px] drop-shadow"

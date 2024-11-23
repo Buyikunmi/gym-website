@@ -35,6 +35,7 @@ const TabSection = () => {
         {filteredTabs.map((card) => (
           <motion.div
             id={card.id}
+            key={card.id}
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
             className="p-4 border rounded shadow-sm space-y-2"
