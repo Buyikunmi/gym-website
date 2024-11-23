@@ -6,6 +6,7 @@ import Image5 from "../assets/tabs/treadmill.jpg";
 import Image6 from "../assets/tabs/weights1.jpg";
 import Image7 from "../assets/tabs/kettlebells.jpg";
 import Image8 from "../assets/tabs/Gym_ball.jpg";
+import Image9 from "../assets/tabs/spinBike.jpg";
 
 export const NavbarMenu = [
   {
@@ -61,23 +62,23 @@ export const ProductsData = [
     price: "$100",
   },
   {
-    id: 6,
-    category: "Muscles",
-    image: Image4,
-    title: "Dumbells",
-    info: "info",
-    price: "$100",
-  },
-  {
     id: 4,
-    category: "Fitness",
-    image: Image5,
-    title: "Dumbells",
+    category: "Muscles",
+    image: Image6,
+    title: "Weights",
     info: "info",
     price: "$100",
   },
   {
     id: 5,
+    category: "Fitness",
+    image: Image9,
+    title: "Spin Bike",
+    info: "info",
+    price: "$100",
+  },
+  {
+    id: 6,
     category: "Muscles",
     image: Image7,
     title: "kettlebells",
