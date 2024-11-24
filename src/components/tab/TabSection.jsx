@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ProductsData } from "../../mockData/data";
+import { ProductsData } from "../../../public/mockData/data";
 import { motion } from "framer-motion";
 
 const TabSection = () => {

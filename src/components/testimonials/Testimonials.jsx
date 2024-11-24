@@ -1,5 +1,5 @@
 import React from "react";
-import { TestimonialsData } from "../../mockData/data";
+import { TestimonialsData } from "../../../public/mockData/data";
 import Slider from "react-slick";
 
 const settings = {

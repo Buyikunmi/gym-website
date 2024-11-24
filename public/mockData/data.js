@@ -1,12 +1,12 @@
-import Image1 from "../assets/tabs/1.png";
-import Image2 from "../assets/tabs/2.png";
-import Image3 from "../assets/tabs/3.png";
-import Image4 from "../assets/tabs/4.png";
-import Image5 from "../assets/tabs/treadmill.jpg";
-import Image6 from "../assets/tabs/weights1.jpg";
-import Image7 from "../assets/tabs/kettlebells.jpg";
-import Image8 from "../assets/tabs/Gym_ball.jpg";
-import Image9 from "../assets/tabs/spinBike.jpg";
+import Image1 from "../../src/assets/tabs/1.png";
+import Image2 from "../../src/assets/tabs/2.png";
+import Image3 from "../../src/assets/tabs/3.png";
+import Image4 from "../../src/assets/tabs/4.png";
+import Image5 from "../../src/assets/tabs/treadmill.jpg";
+import Image6 from "../../src/assets/tabs/weights1.jpg";
+import Image7 from "../../src/assets/tabs/kettlebells.jpg";
+import Image8 from "../../src/assets/tabs/Gym_ball.jpg";
+import Image9 from "../../src/assets/tabs/spinBike.jpg";
 
 export const NavbarMenu = [
   {

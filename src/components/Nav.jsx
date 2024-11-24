@@ -1,5 +1,5 @@
 import React from "react";
-import { NavbarMenu } from "../mockData/data";
+import { NavbarMenu } from "../../public/mockData/data";
 import { CiSearch } from "react-icons/ci";
 import { PiShoppingCartFill } from "react-icons/pi";
 import { FaDumbbell } from "react-icons/fa";
@@ -29,7 +29,7 @@ const Nav = () => {
                   <li key={item.id}>
                     <a
                       href={item.link}
-                      className="inline-block py-1 px-3 hover:text-primary font-semibold hover:text-secondary hover:border-b-2 border-secondary"
+                      className="inline-block py-1 px-3 hover:text-primary font-semibold hover:border-b-2 border-secondary"
                     >
                       {item.title}
                     </a>
