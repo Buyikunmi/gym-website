@@ -80,8 +80,8 @@ export const ProductsData = [
   {
     id: 6,
     category: "Muscles",
-    image: Image7,
-    title: "kettlebells",
+    image: Image4,
+    title: "dumb bells",
     info: "info",
     price: "$100",
   },
