@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { ProductsData } from "../../../public/mockData/data";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 const TabSection = () => {
@@ -55,3 +54,61 @@ const TabSection = () => {
 };
 
 export default TabSection;
+
+import Image3 from "/src/assets/tabs/3.png";
+import Image4 from "/src/assets/tabs/4.png";
+import Image5 from "/src/assets/tabs/treadmill.jpg";
+import Image6 from "/src/assets/tabs/weights1.jpg";
+import Image8 from "/src/assets/tabs/Gym_ball.jpg";
+import Image9 from "/src/assets/tabs/spinBike.jpg";
+
+const ProductsData = [
+  {
+    id: 1,
+    category: "Yoga",
+    title: "Yoga Ball",
+    image: Image8,
+    info: "info",
+    price: "price",
+  },
+  {
+    id: 2,
+    category: "Fitness",
+    image: Image5,
+    title: "Threadmill",
+    info: "info",
+    price: "$100",
+  },
+  {
+    id: 3,
+    category: "Yoga",
+    image: Image3,
+    title: "Yoga Mat",
+    info: "info",
+    price: "$100",
+  },
+  {
+    id: 4,
+    category: "Muscles",
+    image: Image6,
+    title: "Weights",
+    info: "info",
+    price: "$100",
+  },
+  {
+    id: 5,
+    category: "Fitness",
+    image: Image9,
+    title: "Spin Bike",
+    info: "info",
+    price: "$100",
+  },
+  {
+    id: 6,
+    category: "Muscles",
+    image: Image4,
+    title: "dumb bells",
+    info: "info",
+    price: "$100",
+  },
+];

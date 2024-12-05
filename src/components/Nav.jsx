@@ -1,5 +1,3 @@
-import React from "react";
-import { NavbarMenu } from "../../public/mockData/data";
 import { CiSearch } from "react-icons/ci";
 import { PiShoppingCartFill } from "react-icons/pi";
 import { FaDumbbell } from "react-icons/fa";
@@ -62,3 +60,31 @@ const Nav = () => {
 };
 
 export default Nav;
+
+const NavbarMenu = [
+  {
+    id: 1,
+    title: "Home",
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "Trainer",
+    link: "#",
+  },
+  {
+    id: 3,
+    title: "Program",
+    link: "#",
+  },
+  {
+    id: 4,
+    title: "Blogs",
+    link: "#",
+  },
+  {
+    id: 5,
+    title: "Pricing",
+    link: "#",
+  },
+];
